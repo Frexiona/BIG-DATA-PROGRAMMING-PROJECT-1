@@ -1,8 +1,8 @@
 #!/bin/bash
 
-usr=cs18202514
-pw=qRgH5rzy
-db=cs18202514
+usr=user
+pw=password
+db=databasename
 
 echo "---------------------MYSQL--------------------------"
 echo "EXECUTEING 'SELECT * FROM CURRENT_DEPT_EMP LIMIT 20'"
