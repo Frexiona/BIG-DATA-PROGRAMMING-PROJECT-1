@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mongo << EOF
-use cs18202514;
+use databasename;
 db.dept_emp.find().forEach(function(doc)
 {
 	doc.from_date=new ISODate(doc.from_date);
