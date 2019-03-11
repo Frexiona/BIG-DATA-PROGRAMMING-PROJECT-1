@@ -22,9 +22,9 @@
 --  Any similarity to existing people is purely coincidental.
 -- 
 
-DROP DATABASE IF EXISTS cs18202514;
-CREATE DATABASE IF NOT EXISTS cs18202514;
-USE cs18202514;
+DROP DATABASE IF EXISTS employees;
+CREATE DATABASE IF NOT EXISTS employees;
+USE employees;
 
 SELECT 'CREATING DATABASE STRUCTURE' as 'INFO';
 
