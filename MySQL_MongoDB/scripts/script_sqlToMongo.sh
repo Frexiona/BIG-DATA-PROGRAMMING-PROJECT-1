@@ -1,8 +1,8 @@
 #!/bin/bash
 
-usr=cs18202514
-pw=qRgH5rzy
-db=cs18202514
+usr=username
+pw=password
+db=databasename
 
 mysql -u $usr -p$pw -D $db -e "Select table_name from information_schema.tables where table_type = 'BASE TABLE'" | tail -n +2 > tables.txt
 
